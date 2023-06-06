@@ -159,7 +159,7 @@ export function NewChat() {
           bordered
           shadow
         />
-/* commented by Joe
+        {/* commented by Joe
         <IconButton
           text={Locale.NewChat.Skip}
           onClick={() => startChat()}
@@ -168,7 +168,7 @@ export function NewChat() {
           shadow
           className={styles["skip"]}
         />
- */
+ */}
       </div>
 
       <div className={styles["masks"]} ref={maskRef}>
