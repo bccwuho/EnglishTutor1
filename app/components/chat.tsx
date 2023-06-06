@@ -594,7 +594,8 @@ export function Chat() {
     inputRef.current?.focus();
   };
 
-  const context: RenderMessage[] = session.mask.hideContext
+  /// modified by Joe ：always hide context for mask /// const context: RenderMessage[] = session.mask.hideContext
+  const context: RenderMessage[] = true
     ? []
     : session.mask.context.slice();
 
