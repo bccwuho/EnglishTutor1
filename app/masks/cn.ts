@@ -3,7 +3,7 @@ import { BuiltinMask } from "./typing";
 export const CN_MASKS: BuiltinMask[] = [
   {
     avatar: "1f385",
-    name: "英语-单词列表编故事（初中版）：请输入单词列表",
+    name: "单词列表编故事(初中版)：请输入单词列表",
     context: [
       {
         role: "system",
@@ -26,7 +26,7 @@ export const CN_MASKS: BuiltinMask[] = [
   },
   {
     avatar: "1f9d1-200d-1f4bb",
-    name: "英语-单词列表做练习(初中版）：请输入单词列表",
+    name: "单词列表做练习(初中版)：请输入单词列表",
     context: [
       {
         role: "system",
@@ -49,7 +49,7 @@ export const CN_MASKS: BuiltinMask[] = [
   },
     {
     avatar: "1f4af",
-    name: "英语-详解单词(初中版）：请输入单词",
+    name: "详解单词(初中版)：请输入单词",
     context: [
       {
         role: "system",
@@ -72,7 +72,7 @@ export const CN_MASKS: BuiltinMask[] = [
   },
   {
     avatar: "1f385",
-    name: "英语-单词列表编故事（高中版）：请输入单词列表",
+    name: "单词列表编故事(高中版)：请输入单词列表",
     context: [
       {
         role: "system",
@@ -95,7 +95,7 @@ export const CN_MASKS: BuiltinMask[] = [
   },
   {
     avatar: "1f9d1-200d-1f4bb",
-    name: "英语-单词列表做练习(高中版）：请输入单词列表",
+    name: "单词列表做练习(高中版)：请输入单词列表",
     context: [
       {
         role: "system",
@@ -118,7 +118,7 @@ export const CN_MASKS: BuiltinMask[] = [
   },
     {
     avatar: "1f4af",
-    name: "英语-详解单词(高中版）：请输入单词",
+    name: "详解单词(高中版)：请输入单词",
     context: [
       {
         role: "system",
