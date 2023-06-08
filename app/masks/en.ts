@@ -3,7 +3,7 @@ import { BuiltinMask } from "./typing";
 export const EN_MASKS: BuiltinMask[] = [
   {
     avatar: "1f385",
-    name: "单词列表编故事(小学版)：请输入单词列表",
+    name: "单词列表编故事小学版：请输入单词列表",
     context: [
       {
         role: "system",
@@ -26,7 +26,7 @@ export const EN_MASKS: BuiltinMask[] = [
   },
   {
     avatar: "1f9d1-200d-1f4bb",
-    name: "单词列表做练习(小学版)：请输入单词列表",
+    name: "单词列表做练习小学版：请输入单词列表",
     context: [
       {
         role: "system",
@@ -49,7 +49,7 @@ export const EN_MASKS: BuiltinMask[] = [
   },
     {
     avatar: "1f4af",
-    name: "详解单词(小学版)：请输入单词",
+    name: "详解单词小学版：请输入单词",
     context: [
       {
         role: "system",
