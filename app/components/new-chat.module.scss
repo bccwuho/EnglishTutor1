@@ -104,10 +104,10 @@
         background-color: var(--white);
         border-radius: 10px;
         margin-right: 10px;
-        max-width: 10em;
+        max-width: 8em;
         transform: scale(1);
         cursor: pointer;
-        transition: all ease 0.3s;
+        /* commented by Joe transition: all ease 0.3s; */
 
         &:hover {
           transform: translateY(-5px) scale(1.1);
