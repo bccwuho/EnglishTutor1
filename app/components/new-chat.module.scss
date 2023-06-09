@@ -5,7 +5,7 @@
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center;   
   flex-direction: column;
 
   .mask-header {
@@ -14,14 +14,12 @@
     width: 100%;
     padding: 10px;
     box-sizing: border-box;
-    /// commented by Joe animation: slide-in-from-top ease 0.3s;
   }
 
   .mask-cards {
     display: flex;
     margin-top: 5vh;
     margin-bottom: 20px;
-    /// commented by Joe animation: slide-in ease 0.3s;
 
     .mask-card {
       padding: 20px 10px;
@@ -45,17 +43,14 @@
     font-size: 32px;
     font-weight: bolder;
     margin-bottom: 1vh;
-    /// commented by Joe animation: slide-in ease 0.35s;
   }
 
   .sub-title {
-    /// commented by Joe animation: slide-in ease 0.4s;
   }
 
   .actions {
     margin-top: 5vh;
     margin-bottom: 2vh;
-    /// commented by Joe animation: slide-in ease 0.45s;
     display: flex;
     justify-content: center;
     font-size: 12px;
@@ -82,7 +77,6 @@
     -webkit-mask-image: $linear;
     mask-image: $linear;
 
-    /// commented by Joe animation: slide-in ease 0.5s;
 
     .mask-row {
       display: flex;
@@ -104,12 +98,12 @@
         background-color: var(--white);
         border-radius: 10px;
         margin-right: 10px;
-        max-width: 8em;
+        max-width: 16em;    /// modified by Joe from 8em to 16em
         transform: scale(1);
         cursor: pointer;
 
         &:hover {
-          transform: translateY(-5px) scale(1.2);
+          transform: translateY(-5px) scale(1.1);
           z-index: 999;
           border-color: var(--primary);
         }
