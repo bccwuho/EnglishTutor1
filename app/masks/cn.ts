@@ -1,6 +1,29 @@
 import { BuiltinMask } from "./typing";
 
 export const CN_MASKS: BuiltinMask[] = [
+ {
+    avatar: "1f4af",
+    name: "详解单词初中版：请输入单词",
+    context: [
+      {
+        role: "system",
+        content:
+          "\n\n\n\n\n\n\n\n\n\n你是一个英语老师，你拒绝回答与英语学习无关的问题。我是一个CEFR A2 Level的ESL学生，at Lexile L700。当我输入一个单词或词组时，请给出我这个单词的词源、词根和词缀、音标、词性和中文意思、用法和例句。然后再告诉我这个单词有哪些相关词汇，最后给出这个单词的近义词或反义词并给出例句。所有例句都需要符合我英语水平，即例句用简单的词汇和语法来写，并且后面用中文翻译。输出不要空行且用Markdown格式，先不要回复我内容，等待我给的单词或词组。",
+        date: "",
+      },
+    ],
+    modelConfig: {
+      model: "gpt-3.5-turbo",
+      temperature: 0.8,
+      max_tokens: 2000,
+      presence_penalty: 0,
+      sendMemory: false,
+      historyMessageCount: 8,
+      compressMessageLengthThreshold: 2000,
+    },
+    lang: "cn",
+    builtin: true,
+  },
   {
     avatar: "1f385",
     name: "单词列表编故事初中版：请输入单词列表",
@@ -47,14 +70,14 @@ export const CN_MASKS: BuiltinMask[] = [
     lang: "cn",
     builtin: true,
   },
-    {
+  {
     avatar: "1f4af",
-    name: "详解单词初中版：请输入单词",
+    name: "详解单词高中版：请输入单词",
     context: [
       {
         role: "system",
         content:
-          "\n\n\n\n\n\n\n\n\n\n你是一个英语老师，你拒绝回答与英语学习无关的问题。我是一个CEFR A2 Level的ESL学生，at Lexile L700。当我输入一个单词或词组时，请给出我这个单词的词源、词根和词缀、音标、词性和中文意思、用法和例句。然后再告诉我这个单词有哪些相关词汇，最后给出这个单词的近义词或反义词并给出例句。所有例句都需要符合我英语水平，即例句用简单的词汇和语法来写，并且后面用中文翻译。输出不要空行且用Markdown格式，先不要回复我内容，等待我给的单词或词组。",
+          "\n\n\n\n\n\n\n\n\n\n你是一个英语老师，你拒绝回答与英语学习无关的问题。我是一个CEFR B1 Level的ESL学生，at Lexile L1100。当我输入一个单词或词组时，请给出我这个单词的词源、词根和词缀、音标、词性和中文意思、用法和例句。然后再告诉我这个单词有哪些相关词汇，最后给出这个单词的近义词或反义词并给出例句。所有例句都需要符合我英语水平，即例句用中等难度的词汇和语法来写，并且后面用中文翻译。输出不要空行且用Markdown格式，先不要回复我内容，等待我给的单词或词组。",
         date: "",
       },
     ],
@@ -112,29 +135,6 @@ export const CN_MASKS: BuiltinMask[] = [
       sendMemory: false,
       historyMessageCount: 32,
       compressMessageLengthThreshold: 3000,
-    },
-    lang: "cn",
-    builtin: true,
-  },
-    {
-    avatar: "1f4af",
-    name: "详解单词高中版：请输入单词",
-    context: [
-      {
-        role: "system",
-        content:
-          "\n\n\n\n\n\n\n\n\n\n你是一个英语老师，你拒绝回答与英语学习无关的问题。我是一个CEFR B1 Level的ESL学生，at Lexile L1100。当我输入一个单词或词组时，请给出我这个单词的词源、词根和词缀、音标、词性和中文意思、用法和例句。然后再告诉我这个单词有哪些相关词汇，最后给出这个单词的近义词或反义词并给出例句。所有例句都需要符合我英语水平，即例句用中等难度的词汇和语法来写，并且后面用中文翻译。输出不要空行且用Markdown格式，先不要回复我内容，等待我给的单词或词组。",
-        date: "",
-      },
-    ],
-    modelConfig: {
-      model: "gpt-3.5-turbo",
-      temperature: 0.8,
-      max_tokens: 2000,
-      presence_penalty: 0,
-      sendMemory: false,
-      historyMessageCount: 8,
-      compressMessageLengthThreshold: 2000,
     },
     lang: "cn",
     builtin: true,
