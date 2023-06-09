@@ -51,8 +51,9 @@ function useMaskGroup(masks: Mask[]) {
 
       const randomMask = () => masks[Math.floor(Math.random() * masks.length)];
       let maskIndex = 0;
-      const nextMask = () => masks[maskIndex++ % masks.length];
-
+      /// commented by Joe const nextMask = () => masks[maskIndex++ % masks.length];
+      const nextMask = () => (maskIndex < masks.length ? masks[maskIndex++] : null);
+      
       const rows = Math.ceil(maxHeight / maskItemHeight);
       const cols = Math.ceil(maxWidth / maskItemWidth);
 
